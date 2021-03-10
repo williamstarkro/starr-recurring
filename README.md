@@ -47,4 +47,4 @@ node scripts/minify-contracts.js ../abi/
 For testing purposes to have a token address.
 
 #### Subscription
-A 
+A subscription contract (one contract per subscription provider if you are locking `to`). This will allow off chain relayers to submit transactions on behalf of subscribers through signed meta transactions. There is an added benefit of being able to submit 1 TX to handle multiple payment cycles in the past.
